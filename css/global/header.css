@@ -8,11 +8,8 @@
   gap: 20px;
   justify-content: space-between;
   align-items: center;
-  box-sizing: border-box;
-  padding: 20px;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .header-menu {
@@ -32,7 +29,7 @@
   content: "";
   display: block;
   height: 2px;
-  width: 0%;
+  width: 0px;
   background: var(--cor-0);
   margin-top: 4px;
   transition: 0.3s;
@@ -45,7 +42,7 @@
 
 @media (max-width: 800px) {
   .header-menu {
-    padding: 20px;
+    gap: 20px;
   }
   .header-menu a {
     background: var(--cor-11);
@@ -62,7 +59,7 @@
 
 @media (max-width: 600px) {
   .header-menu {
-    padding: 12px;
+    gap: 12px;
   }
   .header-menu a {
     padding: 8px 12px;
